@@ -1,0 +1,4 @@
+"hello" - first commit
+"B: Main add commit" - Main commit
+"C: Line for feature C" - Feature C
+"D: Line for feature D" - Feature D
