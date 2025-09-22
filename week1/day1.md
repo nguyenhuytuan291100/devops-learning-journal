@@ -1,4 +1,4 @@
-# Month 1 - 📅 Day 1 - Linux basic
+# Month 1 - 📅 Day 1 - Linux basic - git rebase
 
 ## 🔑 Học hôm nay
 1. Filesystem Hierarchy Standard (FHS):
@@ -59,3 +59,6 @@ git rebase master
 # Nếu commit D cũng conflict, lặp lại resolve + add + --continue
 
 
+## 📝 Ghi chú cá nhân
+- Cần luyện thêm cách sử dụng các tool cho git;
+- Thực hành thêm về git rebase --i.
