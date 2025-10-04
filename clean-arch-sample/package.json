@@ -1,0 +1,15 @@
+{
+  "name": "clean-arch-sample",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "pnpm --filter server dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev": "concurrently -k \"pnpm dev:server\" \"pnpm dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
